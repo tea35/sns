@@ -52,7 +52,7 @@ export default function Rightbar({ user }) {
               />
               <span className="rightbarOnline"></span>
             </div>
-            <span className="rightbarUsername">Shin Code</span>
+            <span className="rightbarUsername">Ko</span>
           </li> */}
           {Users.map((user) => (
             <Online key={user.id} user={user} />
@@ -76,7 +76,7 @@ export default function Rightbar({ user }) {
           src={PUBLIC_FOLDER + "promotion/promotion3.jpeg"}
           alt=""
         />
-        <p className="promotionName">ShinCode株式会社</p>
+        <p className="promotionName">Ko株式会社</p>
       </>
     );
   };
@@ -110,7 +110,7 @@ export default function Rightbar({ user }) {
                 alt=""
                 className="rightbarFollowingImg"
               />
-              <span className="rightbarFollowingName">ShinCode</span>
+              <span className="rightbarFollowingName">Ko</span>
             </div>
             <div className="rightbarFollowing">
               <img

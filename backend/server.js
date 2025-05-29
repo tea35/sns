@@ -13,7 +13,7 @@ const uploadRoute = require("./routes/upload");
 const path = require("path");
 require("dotenv").config();
 
-const PORT = 8080;
+const PORT = 5000;
 
 mongoose
   .connect(process.env.MONGO_URL)

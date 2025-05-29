@@ -20,8 +20,8 @@ export default function Profile() {
     const fetchUser = async () => {
       // const res = await axios.get(`users/${post.userId}`);
       //クエリの取得ができてない。
-      // const res = await axios.get("/users?username=shincode");
-      // const res = await axios.get(`/users?username=shincode`);
+      // const res = await axios.get("/users?username=Ko");
+      // const res = await axios.get(`/users?username=Ko`);
       const res = await axios.get(`/users?username=${username}`);
 
       setUser(res.data);
@@ -61,7 +61,7 @@ export default function Profile() {
             </div>
           </div>
           <div className="profileRightBottom">
-            {/* <Share username="shincode" /> */}
+            {/* <Share username="Ko" /> */}
             {/* <Share username={username} /> */}
             <TimeLine username={username} />
             <Rightbar user={user} />
